@@ -45,7 +45,7 @@ nav {
 }
 
 .nav-container-right .app-link {
-    padding-right: 24px;
+    padding-right: 15px;
 }
 
 nav a {
@@ -58,13 +58,14 @@ nav a {
 
 
 #app-icon {
-    height: 20px;
+    color: #000;
+    height: 25px;
     width: auto;
     opacity: 0.75;
 }
 
 #app-icon:hover {
-    opacity: 0.85;
+    opacity: 1;
 }
 
 #profile {
@@ -97,13 +98,11 @@ nav a {
 
 #search-form {
     display: flex;
-    margin-top: 20px;
     margin-bottom: 20px;
     position: relative;
     border: 1px solid #dfe1e5;
     height: 44px;
-    width: 480px;
-    margin: 0 auto;
+    width: 580px;
     border-radius: 24px;
 }
 
@@ -129,7 +128,7 @@ nav a {
     position: relative;
     background-color: transparent;
     color: rgba(0,0,0,.87);
-    width: 420px;
+    width: 500px;
     word-wrap: break-word;
     font-size: 16px;
     height: 34px !important;
@@ -152,6 +151,7 @@ input[type="button"] {
     min-width: 54px;
     text-align: center;
     cursor: pointer;
+    font-size: 14px;
 
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -177,6 +177,7 @@ input[type="button"]:hover {
     justify-content: space-between;
     align-items: center;
     line-height: 40px;
+    border: 1px solid #f8f8f8;
 }
 
 .footer-container-left {
@@ -199,7 +200,6 @@ footer a {
     color: #5f6368;
     text-decoration: none;
     cursor: pointer;
-    opacity: 0.75;
     font-size: 14px;
 }
 
