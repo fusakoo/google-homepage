@@ -13,6 +13,27 @@ body {
 /* Navitation */
 
 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.nav-container-left .links {
+    padding-left: 16px;
+}
+
+.nav-container-right {
+    padding-right: 30px;
+    padding-right: 30px;
+}
+
+.nav-container-right .links {
+    padding-right: 24px;
+}
+
+.nav-container-right .app-link {
+    padding-right: 30px;
 }
 
 nav a {
@@ -48,7 +69,7 @@ nav a {
 /* Main */
 
 #logo {
-    
+
 }
 
 #google-logo {
@@ -71,6 +92,26 @@ nav a {
     left: 0;
     right: 0;
     position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px;
+}
+
+.footer-container-left {
+    margin-left: 30px;
+}
+
+.footer-container-left .links {
+    padding-right: 27px;
+}
+
+.footer-container-right {
+    margin-right: 30px;
+}
+
+.footer-container-right .links {
+    padding-left: 27px;
 }
 
 footer a {
@@ -81,6 +122,6 @@ footer a {
     font-size: 14px;
 }
 
-a:hover, a:active{
+.links:hover, .links:active{
     text-decoration: underline;
 }
